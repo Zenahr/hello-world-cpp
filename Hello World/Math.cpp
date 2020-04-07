@@ -1,8 +1,8 @@
-// Defines the word INTEGER to be int.
-#define INTEGER int
 
-INTEGER Multiply(INTEGER a, INTEGER b)
+#if 0
+int Multiply(int a, int b)
 {
-	INTEGER result = a * b;
+	int result = a * b;
 	return result;
 }
+#endif
