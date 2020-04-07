@@ -1,5 +1,6 @@
 #include "Header.h"
 
+
 int main()
 {
 	MultiplyAndLog(2, 3);
