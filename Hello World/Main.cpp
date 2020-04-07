@@ -1,15 +1,18 @@
 #include <iostream>
 
+int Multiply(int a, int b)
+{
+	return a * b;
+}
+
+void MultiplyAndLog(int a, int b)
+{
+	std::cout << Multiply(a, b) << "\n";
+}
 
 int main()
-{	
-	std::cout << "Sizes of some datatypes (in bytes):" << std::endl;
-	std::cout << "+---------------------------------+" << std::endl;
-
-	std::cout << "bool: " << sizeof(bool) << " Bytes" << std::endl;
-	std::cout << "float: " << sizeof(float) << " Bytes" << std::endl;
-	std::cout << "double: " << sizeof(double) << " Bytes" << std::endl;
-	std::cout << "+---------------------------------+" << std::endl;
-
+{
+	// std::cout << Multiply(2, 3) << std::endl;
+	MultiplyAndLog(2, 3);
 	std::cin.get();	
 }
