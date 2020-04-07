@@ -1,10 +1,9 @@
 #include <iostream>
 
-void Log(const char* message)
-{
-	std::cout << message << std::endl;
-}
-
+// Function declaration.
+// can also be just:
+// void Log (cont char*); // No parameter names included.
+void Log(const char* message);
 
 int main()
 {
