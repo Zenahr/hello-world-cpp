@@ -1,12 +1,15 @@
 #include <iostream>
 
-// Function declaration.
-// can also be just:
-// void Log (cont char*); // No parameter names included.
-void Log(const char* message);
 
 int main()
-{
-	Log("Hello, World!");
-	std::cin.get();
+{	
+	std::cout << "Sizes of some datatypes (in bytes):" << std::endl;
+	std::cout << "+---------------------------------+" << std::endl;
+
+	std::cout << "bool: " << sizeof(bool) << " Bytes" << std::endl;
+	std::cout << "float: " << sizeof(float) << " Bytes" << std::endl;
+	std::cout << "double: " << sizeof(double) << " Bytes" << std::endl;
+	std::cout << "+---------------------------------+" << std::endl;
+
+	std::cin.get();	
 }
